@@ -3,7 +3,7 @@ import streamlit as st
 import time
 
 client = Groq(
-    api_key="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"
+    api_key="put your key"
 )
 
 # model_name = "llama-3.1-70b-versatile"
@@ -93,3 +93,4 @@ def recommended_types_response(recommended_types: list[str]):
     but show the results of the recommended / recommend types to the user.
     """
     add_msg('system',  system_prompt)
+
